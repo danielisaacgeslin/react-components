@@ -1,0 +1,229 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Checkbox Component should render checked 1`] = `
+.block-checkboxType {
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  position: relative;
+  outline: 0px;
+  cursor: pointer;
+  width: 18px;
+  height: 18px;
+  display: inline-block;
+}
+
+.block-checkboxType:checked:before {
+  background-color: #000;
+  border: 1px solid #000;
+}
+
+.block-checkboxType:checked:after {
+  background-position: center;
+  background-size: cover;
+  background-image: url(check.svg);
+}
+
+.block-checkboxType:disabled {
+  opacity: 0.45;
+}
+
+.block-checkboxType:before {
+  content: "";
+  position: absolute;
+  display: block;
+  width: 18px;
+  height: 18px;
+  border: 1px solid rgba(213, 222, 241, 0.7);
+  border-radius: 4px;
+}
+
+.block-checkboxType:after {
+  content: "";
+  position: absolute;
+  display: block;
+  width: 18px;
+  height: 18px;
+  border: 1px solid transparent;
+  border-radius: 4px;
+}
+
+<input
+  checked={true}
+  className="block-checkboxType"
+  disabled={false}
+  readOnly={true}
+  type="checkbox"
+/>
+`;
+
+exports[`Checkbox Component should render radio checked 1`] = `
+.block-radioType {
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  position: relative;
+  outline: 0px;
+  cursor: pointer;
+  width: 18px;
+  height: 18px;
+  display: inline-block;
+}
+
+.block-radioType:checked:before {
+  background-color: #000;
+  border: 1px solid #000;
+}
+
+.block-radioType:checked:after {
+  background-position: center;
+  background-size: cover;
+  background-image: url(check.svg);
+}
+
+.block-radioType:disabled {
+  opacity: 0.45;
+}
+
+.block-radioType:before {
+  content: "";
+  position: absolute;
+  display: block;
+  width: 18px;
+  height: 18px;
+  border: 1px solid rgba(213, 222, 241, 0.7);
+  border-radius: 100%;
+}
+
+.block-radioType:after {
+  content: "";
+  position: absolute;
+  display: block;
+  width: 18px;
+  height: 18px;
+  border: 1px solid transparent;
+  border-radius: 100%;
+}
+
+<input
+  checked={true}
+  className="block-radioType"
+  disabled={false}
+  readOnly={true}
+  type="checkbox"
+/>
+`;
+
+exports[`Checkbox Component should render radio unchecked 1`] = `
+.block-radioType {
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  position: relative;
+  outline: 0px;
+  cursor: pointer;
+  width: 18px;
+  height: 18px;
+  display: inline-block;
+}
+
+.block-radioType:checked:before {
+  background-color: #000;
+  border: 1px solid #000;
+}
+
+.block-radioType:checked:after {
+  background-position: center;
+  background-size: cover;
+  background-image: url(check.svg);
+}
+
+.block-radioType:disabled {
+  opacity: 0.45;
+}
+
+.block-radioType:before {
+  content: "";
+  position: absolute;
+  display: block;
+  width: 18px;
+  height: 18px;
+  border: 1px solid rgba(213, 222, 241, 0.7);
+  border-radius: 100%;
+}
+
+.block-radioType:after {
+  content: "";
+  position: absolute;
+  display: block;
+  width: 18px;
+  height: 18px;
+  border: 1px solid transparent;
+  border-radius: 100%;
+}
+
+<input
+  checked={false}
+  className="block-radioType"
+  disabled={false}
+  readOnly={true}
+  type="checkbox"
+/>
+`;
+
+exports[`Checkbox Component should render unchecked 1`] = `
+.block-checkboxType {
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  position: relative;
+  outline: 0px;
+  cursor: pointer;
+  width: 18px;
+  height: 18px;
+  display: inline-block;
+}
+
+.block-checkboxType:checked:before {
+  background-color: #000;
+  border: 1px solid #000;
+}
+
+.block-checkboxType:checked:after {
+  background-position: center;
+  background-size: cover;
+  background-image: url(check.svg);
+}
+
+.block-checkboxType:disabled {
+  opacity: 0.45;
+}
+
+.block-checkboxType:before {
+  content: "";
+  position: absolute;
+  display: block;
+  width: 18px;
+  height: 18px;
+  border: 1px solid rgba(213, 222, 241, 0.7);
+  border-radius: 4px;
+}
+
+.block-checkboxType:after {
+  content: "";
+  position: absolute;
+  display: block;
+  width: 18px;
+  height: 18px;
+  border: 1px solid transparent;
+  border-radius: 4px;
+}
+
+<input
+  checked={false}
+  className="block-checkboxType"
+  disabled={false}
+  readOnly={true}
+  type="checkbox"
+/>
+`;

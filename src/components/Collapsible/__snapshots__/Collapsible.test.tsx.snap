@@ -1,0 +1,425 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Collapsible should hide the content 1`] = `
+.header {
+  -webkit-box-pack: justify;
+  -ms-flex-pack: justify;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  -webkit-box-direction: normal;
+  -webkit-box-orient: horizontal;
+  display: -webkit-box;
+  display: -moz-box;
+  display: -ms-flexbox;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-flex-direction: row;
+  -ms-flex-direction: row;
+  flex-direction: row;
+  -webkit-align-items: center;
+  align-items: center;
+  -webkit-justify-content: space-between;
+  justify-content: space-between;
+  margin-bottom: 10px;
+}
+
+.title {
+  text-transform: capitalize;
+  font-size: 15px;
+}
+
+.icon {
+  cursor: pointer;
+}
+
+.bodyContainer {
+  -webkit-box-lines: multiple;
+  display: -webkit-box;
+  display: -moz-box;
+  display: -ms-flexbox;
+  display: -webkit-flex;
+  display: flex;
+  overflow: hidden;
+  -webkit-flex-wrap: wrap;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+  -webkit-transition: all 0.3s;
+  -moz-transition: all 0.3s;
+  transition: all 0.3s;
+  -webkit-flex: 0;
+  -ms-flex: 0 1 0%;
+  flex: 0;
+}
+
+<div>
+  <header
+    className="header"
+  >
+    <span
+      className="title"
+    >
+      Collapsible title 
+    </span>
+    <div
+      className="icon"
+      data-attribute="button-toggle"
+      onClick={[Function]}
+    >
+      <svg
+        aria-hidden="true"
+        className="svg-inline--fa fa-angle-up fa-w-10 "
+        data-icon="angle-up"
+        data-prefix="fas"
+        focusable="false"
+        role="img"
+        style={Object {}}
+        viewBox="0 0 320 512"
+        xmlns="http://www.w3.org/2000/svg"
+      >
+        <path
+          d="M177 159.7l136 136c9.4 9.4 9.4 24.6 0 33.9l-22.6 22.6c-9.4 9.4-24.6 9.4-33.9 0L160 255.9l-96.4 96.4c-9.4 9.4-24.6 9.4-33.9 0L7 329.7c-9.4-9.4-9.4-24.6 0-33.9l136-136c9.4-9.5 24.6-9.5 34-.1z"
+          fill="currentColor"
+          style={Object {}}
+        />
+      </svg>
+    </div>
+  </header>
+  <div
+    className="bodyContainer"
+    style={
+      Object {
+        "height": 0,
+      }
+    }
+  >
+    <div>
+      Content
+    </div>
+  </div>
+</div>
+`;
+
+exports[`Collapsible should render 1`] = `
+<div>
+  <header
+    className="header_xzo27s"
+  >
+    <span
+      className="title_yvog1c"
+    >
+      Collapsible title 
+    </span>
+    <div
+      className="icon_13xlah4"
+      data-attribute="button-toggle"
+      onClick={[Function]}
+    >
+      <svg
+        aria-hidden="true"
+        className="svg-inline--fa fa-angle-up fa-w-10 "
+        data-icon="angle-up"
+        data-prefix="fas"
+        focusable="false"
+        role="img"
+        style={Object {}}
+        viewBox="0 0 320 512"
+        xmlns="http://www.w3.org/2000/svg"
+      >
+        <path
+          d="M177 159.7l136 136c9.4 9.4 9.4 24.6 0 33.9l-22.6 22.6c-9.4 9.4-24.6 9.4-33.9 0L160 255.9l-96.4 96.4c-9.4 9.4-24.6 9.4-33.9 0L7 329.7c-9.4-9.4-9.4-24.6 0-33.9l136-136c9.4-9.5 24.6-9.5 34-.1z"
+          fill="currentColor"
+          style={Object {}}
+        />
+      </svg>
+    </div>
+  </header>
+  <div
+    className="bodyContainer_bbdpsy"
+    style={
+      Object {
+        "height": 0,
+      }
+    }
+  >
+    <div>
+      Content
+    </div>
+  </div>
+</div>
+`;
+
+exports[`Collapsible should render a title as a component 1`] = `
+.header {
+  -webkit-box-pack: justify;
+  -ms-flex-pack: justify;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  -webkit-box-direction: normal;
+  -webkit-box-orient: horizontal;
+  display: -webkit-box;
+  display: -moz-box;
+  display: -ms-flexbox;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-flex-direction: row;
+  -ms-flex-direction: row;
+  flex-direction: row;
+  -webkit-align-items: center;
+  align-items: center;
+  -webkit-justify-content: space-between;
+  justify-content: space-between;
+  margin-bottom: 10px;
+}
+
+.icon {
+  cursor: pointer;
+}
+
+.bodyContainer {
+  -webkit-box-lines: multiple;
+  display: -webkit-box;
+  display: -moz-box;
+  display: -ms-flexbox;
+  display: -webkit-flex;
+  display: flex;
+  overflow: hidden;
+  -webkit-flex-wrap: wrap;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+  -webkit-transition: all 0.3s;
+  -moz-transition: all 0.3s;
+  transition: all 0.3s;
+  -webkit-flex: 0;
+  -ms-flex: 0 1 0%;
+  flex: 0;
+}
+
+<div>
+  <header
+    className="header"
+  >
+    <h1>
+      TITLE
+    </h1>
+    <div
+      className="icon"
+      data-attribute="button-toggle"
+      onClick={[Function]}
+    >
+      <svg
+        aria-hidden="true"
+        className="svg-inline--fa fa-angle-up fa-w-10 "
+        data-icon="angle-up"
+        data-prefix="fas"
+        focusable="false"
+        role="img"
+        style={Object {}}
+        viewBox="0 0 320 512"
+        xmlns="http://www.w3.org/2000/svg"
+      >
+        <path
+          d="M177 159.7l136 136c9.4 9.4 9.4 24.6 0 33.9l-22.6 22.6c-9.4 9.4-24.6 9.4-33.9 0L160 255.9l-96.4 96.4c-9.4 9.4-24.6 9.4-33.9 0L7 329.7c-9.4-9.4-9.4-24.6 0-33.9l136-136c9.4-9.5 24.6-9.5 34-.1z"
+          fill="currentColor"
+          style={Object {}}
+        />
+      </svg>
+    </div>
+  </header>
+  <div
+    className="bodyContainer"
+    style={
+      Object {
+        "height": 0,
+      }
+    }
+  >
+    <div>
+      Content
+    </div>
+  </div>
+</div>
+`;
+
+exports[`Collapsible should render custom icon 1`] = `
+.header {
+  -webkit-box-pack: justify;
+  -ms-flex-pack: justify;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  -webkit-box-direction: normal;
+  -webkit-box-orient: horizontal;
+  display: -webkit-box;
+  display: -moz-box;
+  display: -ms-flexbox;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-flex-direction: row;
+  -ms-flex-direction: row;
+  flex-direction: row;
+  -webkit-align-items: center;
+  align-items: center;
+  -webkit-justify-content: space-between;
+  justify-content: space-between;
+  margin-bottom: 10px;
+}
+
+.title {
+  text-transform: capitalize;
+  font-size: 15px;
+}
+
+.icon {
+  cursor: pointer;
+}
+
+.bodyContainer {
+  -webkit-box-lines: multiple;
+  display: -webkit-box;
+  display: -moz-box;
+  display: -ms-flexbox;
+  display: -webkit-flex;
+  display: flex;
+  overflow: hidden;
+  -webkit-flex-wrap: wrap;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+  -webkit-transition: all 0.3s;
+  -moz-transition: all 0.3s;
+  transition: all 0.3s;
+  -webkit-flex: 0;
+  -ms-flex: 0 1 0%;
+  flex: 0;
+}
+
+<div>
+  <header
+    className="header"
+  >
+    <span
+      className="title"
+    >
+      Collapsible title 
+    </span>
+    <div
+      className="icon"
+      data-attribute="button-toggle"
+      onClick={[Function]}
+    >
+      <i>
+        icon open
+      </i>
+    </div>
+  </header>
+  <div
+    className="bodyContainer"
+    style={
+      Object {
+        "height": 0,
+      }
+    }
+  >
+    <div>
+      Content
+    </div>
+  </div>
+</div>
+`;
+
+exports[`Collapsible should render with content hidden 1`] = `
+.header {
+  -webkit-box-pack: justify;
+  -ms-flex-pack: justify;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  -webkit-box-direction: normal;
+  -webkit-box-orient: horizontal;
+  display: -webkit-box;
+  display: -moz-box;
+  display: -ms-flexbox;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-flex-direction: row;
+  -ms-flex-direction: row;
+  flex-direction: row;
+  -webkit-align-items: center;
+  align-items: center;
+  -webkit-justify-content: space-between;
+  justify-content: space-between;
+  margin-bottom: 10px;
+}
+
+.title {
+  text-transform: capitalize;
+  font-size: 15px;
+}
+
+.icon {
+  cursor: pointer;
+}
+
+.bodyContainer {
+  -webkit-box-lines: multiple;
+  display: -webkit-box;
+  display: -moz-box;
+  display: -ms-flexbox;
+  display: -webkit-flex;
+  display: flex;
+  overflow: hidden;
+  -webkit-flex-wrap: wrap;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+  -webkit-transition: all 0.3s;
+  -moz-transition: all 0.3s;
+  transition: all 0.3s;
+  -webkit-flex: 0;
+  -ms-flex: 0 1 0%;
+  flex: 0;
+}
+
+<div>
+  <header
+    className="header"
+  >
+    <span
+      className="title"
+    >
+      Collapsible title 
+    </span>
+    <div
+      className="icon"
+      data-attribute="button-toggle"
+      onClick={[Function]}
+    >
+      <svg
+        aria-hidden="true"
+        className="svg-inline--fa fa-angle-down fa-w-10 "
+        data-icon="angle-down"
+        data-prefix="fas"
+        focusable="false"
+        role="img"
+        style={Object {}}
+        viewBox="0 0 320 512"
+        xmlns="http://www.w3.org/2000/svg"
+      >
+        <path
+          d="M143 352.3L7 216.3c-9.4-9.4-9.4-24.6 0-33.9l22.6-22.6c9.4-9.4 24.6-9.4 33.9 0l96.4 96.4 96.4-96.4c9.4-9.4 24.6-9.4 33.9 0l22.6 22.6c9.4 9.4 9.4 24.6 0 33.9l-136 136c-9.2 9.4-24.4 9.4-33.8 0z"
+          fill="currentColor"
+          style={Object {}}
+        />
+      </svg>
+    </div>
+  </header>
+  <div
+    className="bodyContainer"
+    style={
+      Object {
+        "height": 0,
+      }
+    }
+  >
+    <div>
+      Content
+    </div>
+  </div>
+</div>
+`;

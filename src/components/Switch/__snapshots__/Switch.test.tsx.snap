@@ -1,0 +1,467 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Switch Component should render checked 1`] = `
+.container {
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  position: relative;
+  display: -webkit-box;
+  display: -moz-box;
+  display: -ms-flexbox;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-justify-content: center;
+  justify-content: center;
+  -webkit-align-items: center;
+  align-items: center;
+  height: 30px;
+  cursor: pointer;
+  background-color: #444444;
+  -webkit-transition: .4s;
+  -moz-transition: .4s;
+  transition: .4s;
+  border-radius: 34px;
+}
+
+.ballContainer-ballChecked {
+  -webkit-box-direction: reverse;
+  -webkit-box-orient: horizontal;
+  -webkit-box-pack: justify;
+  -ms-flex-pack: justify;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  padding: 0 5px;
+  display: -webkit-box;
+  display: -moz-box;
+  display: -ms-flexbox;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-align-items: center;
+  align-items: center;
+  -webkit-justify-content: space-between;
+  justify-content: space-between;
+  width: 100%;
+  -webkit-flex-direction: row-reverse;
+  -ms-flex-direction: row-reverse;
+  flex-direction: row-reverse;
+  right: 0px;
+  left: initial;
+}
+
+.ball {
+  background-color: white;
+  border-radius: 100%;
+  width: 22px;
+  min-width: 22px;
+  max-width: 22px;
+  height: 22px;
+  min-height: 22px;
+  max-height: 22px;
+}
+
+<div
+  onClick={[Function]}
+  style={
+    Object {
+      "display": "inline-block",
+    }
+  }
+>
+  <label
+    className="container"
+    style={
+      Object {
+        "backgroundColor": "#444444",
+        "width": 50,
+      }
+    }
+  >
+    <div
+      className="ballContainer-ballChecked"
+    >
+      <div
+        className="ball"
+      />
+    </div>
+  </label>
+</div>
+`;
+
+exports[`Switch Component should render disabled 1`] = `
+.container-disabled {
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  position: relative;
+  display: -webkit-box;
+  display: -moz-box;
+  display: -ms-flexbox;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-justify-content: center;
+  justify-content: center;
+  -webkit-align-items: center;
+  align-items: center;
+  height: 30px;
+  cursor: pointer;
+  background-color: #444444;
+  -webkit-transition: .4s;
+  -moz-transition: .4s;
+  transition: .4s;
+  border-radius: 34px;
+  opacity: 0.5;
+}
+
+.ballContainer-ballChecked {
+  -webkit-box-direction: reverse;
+  -webkit-box-orient: horizontal;
+  -webkit-box-pack: justify;
+  -ms-flex-pack: justify;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  padding: 0 5px;
+  display: -webkit-box;
+  display: -moz-box;
+  display: -ms-flexbox;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-align-items: center;
+  align-items: center;
+  -webkit-justify-content: space-between;
+  justify-content: space-between;
+  width: 100%;
+  -webkit-flex-direction: row-reverse;
+  -ms-flex-direction: row-reverse;
+  flex-direction: row-reverse;
+  right: 0px;
+  left: initial;
+}
+
+.ball {
+  background-color: white;
+  border-radius: 100%;
+  width: 22px;
+  min-width: 22px;
+  max-width: 22px;
+  height: 22px;
+  min-height: 22px;
+  max-height: 22px;
+}
+
+<div
+  onClick={[Function]}
+  style={
+    Object {
+      "display": "inline-block",
+    }
+  }
+>
+  <label
+    className="container-disabled"
+    style={
+      Object {
+        "backgroundColor": "#444444",
+        "width": 50,
+      }
+    }
+  >
+    <div
+      className="ballContainer-ballChecked"
+    >
+      <div
+        className="ball"
+      />
+    </div>
+  </label>
+</div>
+`;
+
+exports[`Switch Component should render unchecked 1`] = `
+.container {
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  position: relative;
+  display: -webkit-box;
+  display: -moz-box;
+  display: -ms-flexbox;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-justify-content: center;
+  justify-content: center;
+  -webkit-align-items: center;
+  align-items: center;
+  height: 30px;
+  cursor: pointer;
+  background-color: #444444;
+  -webkit-transition: .4s;
+  -moz-transition: .4s;
+  transition: .4s;
+  border-radius: 34px;
+}
+
+.ballContainer {
+  -webkit-box-pack: justify;
+  -ms-flex-pack: justify;
+  -webkit-box-direction: normal;
+  -webkit-box-orient: horizontal;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  padding: 0 5px;
+  display: -webkit-box;
+  display: -moz-box;
+  display: -ms-flexbox;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-align-items: center;
+  align-items: center;
+  -webkit-flex-direction: row;
+  -ms-flex-direction: row;
+  flex-direction: row;
+  -webkit-justify-content: space-between;
+  justify-content: space-between;
+  width: 100%;
+}
+
+.ball {
+  background-color: white;
+  border-radius: 100%;
+  width: 22px;
+  min-width: 22px;
+  max-width: 22px;
+  height: 22px;
+  min-height: 22px;
+  max-height: 22px;
+}
+
+<div
+  onClick={[Function]}
+  style={
+    Object {
+      "display": "inline-block",
+    }
+  }
+>
+  <label
+    className="container"
+    style={
+      Object {
+        "backgroundColor": "#CCCCCC",
+        "width": 50,
+      }
+    }
+  >
+    <div
+      className="ballContainer"
+    >
+      <div
+        className="ball"
+      />
+    </div>
+  </label>
+</div>
+`;
+
+exports[`Switch Component should render with label checked 1`] = `
+.container {
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  position: relative;
+  display: -webkit-box;
+  display: -moz-box;
+  display: -ms-flexbox;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-justify-content: center;
+  justify-content: center;
+  -webkit-align-items: center;
+  align-items: center;
+  height: 30px;
+  cursor: pointer;
+  background-color: #444444;
+  -webkit-transition: .4s;
+  -moz-transition: .4s;
+  transition: .4s;
+  border-radius: 34px;
+}
+
+.ballContainer-ballChecked {
+  -webkit-box-direction: reverse;
+  -webkit-box-orient: horizontal;
+  -webkit-box-pack: justify;
+  -ms-flex-pack: justify;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  padding: 0 5px;
+  display: -webkit-box;
+  display: -moz-box;
+  display: -ms-flexbox;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-align-items: center;
+  align-items: center;
+  -webkit-justify-content: space-between;
+  justify-content: space-between;
+  width: 100%;
+  -webkit-flex-direction: row-reverse;
+  -ms-flex-direction: row-reverse;
+  flex-direction: row-reverse;
+  right: 0px;
+  left: initial;
+}
+
+.label {
+  color: #FFFFFF;
+  font-size: 13px;
+  padding-left: 3px;
+  padding-right: 3px;
+}
+
+.ball {
+  background-color: white;
+  border-radius: 100%;
+  width: 22px;
+  min-width: 22px;
+  max-width: 22px;
+  height: 22px;
+  min-height: 22px;
+  max-height: 22px;
+}
+
+<div
+  onClick={[Function]}
+  style={
+    Object {
+      "display": "inline-block",
+    }
+  }
+>
+  <label
+    className="container"
+    style={
+      Object {
+        "backgroundColor": "#444444",
+        "width": 75,
+      }
+    }
+  >
+    <div
+      className="ballContainer-ballChecked"
+    >
+      <span
+        className="label"
+      >
+        checked
+      </span>
+      <div
+        className="ball"
+      />
+    </div>
+  </label>
+</div>
+`;
+
+exports[`Switch Component should render with label unchecked 1`] = `
+.container {
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  position: relative;
+  display: -webkit-box;
+  display: -moz-box;
+  display: -ms-flexbox;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-justify-content: center;
+  justify-content: center;
+  -webkit-align-items: center;
+  align-items: center;
+  height: 30px;
+  cursor: pointer;
+  background-color: #444444;
+  -webkit-transition: .4s;
+  -moz-transition: .4s;
+  transition: .4s;
+  border-radius: 34px;
+}
+
+.ballContainer {
+  -webkit-box-pack: justify;
+  -ms-flex-pack: justify;
+  -webkit-box-direction: normal;
+  -webkit-box-orient: horizontal;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  padding: 0 5px;
+  display: -webkit-box;
+  display: -moz-box;
+  display: -ms-flexbox;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-align-items: center;
+  align-items: center;
+  -webkit-flex-direction: row;
+  -ms-flex-direction: row;
+  flex-direction: row;
+  -webkit-justify-content: space-between;
+  justify-content: space-between;
+  width: 100%;
+}
+
+.label {
+  color: #FFFFFF;
+  font-size: 13px;
+  padding-left: 3px;
+  padding-right: 3px;
+}
+
+.ball {
+  background-color: white;
+  border-radius: 100%;
+  width: 22px;
+  min-width: 22px;
+  max-width: 22px;
+  height: 22px;
+  min-height: 22px;
+  max-height: 22px;
+}
+
+<div
+  onClick={[Function]}
+  style={
+    Object {
+      "display": "inline-block",
+    }
+  }
+>
+  <label
+    className="container"
+    style={
+      Object {
+        "backgroundColor": "#CCCCCC",
+        "width": 75,
+      }
+    }
+  >
+    <div
+      className="ballContainer"
+    >
+      <span
+        className="label"
+      >
+        unchecked
+      </span>
+      <div
+        className="ball"
+      />
+    </div>
+  </label>
+</div>
+`;

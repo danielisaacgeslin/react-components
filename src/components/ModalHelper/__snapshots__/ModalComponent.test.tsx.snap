@@ -1,0 +1,548 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`ModalComponent Component should render closed 1`] = `null`;
+
+exports[`ModalComponent Component should render disabled 1`] = `
+.backdrop {
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  position: fixed;
+  z-index: 190;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.5);
+  top: 0px;
+  left: 0px;
+  display: -webkit-box;
+  display: -moz-box;
+  display: -ms-flexbox;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-justify-content: center;
+  justify-content: center;
+  -webkit-align-items: center;
+  align-items: center;
+}
+
+.container-open {
+  background-color: #FFF;
+  max-width: 90%;
+  max-height: 90%;
+  min-width: 500px;
+  min-height: 150px;
+  padding: 15px 30px 20px 30px;
+  border-radius: 10px;
+  overflow: auto;
+}
+
+.headerContainer {
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  -webkit-box-pack: justify;
+  -ms-flex-pack: justify;
+  margin-bottom: 25px;
+  display: -webkit-box;
+  display: -moz-box;
+  display: -ms-flexbox;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-justify-content: space-between;
+  justify-content: space-between;
+  -webkit-align-items: center;
+  align-items: center;
+}
+
+.title {
+  font-size: 16px;
+  color: #000;
+  font-weight: bold;
+}
+
+.headerBtn {
+  color: #D5DEF1;
+  font-size: 18px;
+}
+
+.bodyContainer {
+  margin-bottom: 15px;
+  max-height: 500px;
+  overflow: auto;
+}
+
+.footerContainer {
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  -webkit-box-pack: end;
+  -ms-flex-pack: end;
+  display: -webkit-box;
+  display: -moz-box;
+  display: -ms-flexbox;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-justify-content: flex-end;
+  justify-content: flex-end;
+  -webkit-align-items: center;
+  align-items: center;
+}
+
+.btn {
+  border: 0px;
+  font-size: 15px;
+  padding: 8px 25px;
+  border-radius: 20px;
+  margin-left: 15px;
+  -webkit-transition: alll .25s;
+  -moz-transition: alll .25s;
+  transition: alll .25s;
+}
+
+.btn-o_O-disabled_4cejf1 {
+  border: 0px;
+  font-size: 15px;
+  padding: 8px 25px;
+  border-radius: 20px;
+  margin-left: 15px;
+  -webkit-transition: alll .25s;
+  -moz-transition: alll .25s;
+  transition: alll .25s;
+  opacity: 0.3;
+}
+
+<div
+  className="backdrop"
+  data-testid="modal"
+>
+  <div
+    className="container-open"
+  >
+    <header
+      className="headerContainer"
+    >
+      <span
+        className="title"
+      >
+        test title
+      </span>
+      <div
+        className="headerBtn"
+        onClick={[Function]}
+      >
+        <svg
+          aria-hidden="true"
+          className="svg-inline--fa fa-times fa-w-11 "
+          data-icon="times"
+          data-prefix="fas"
+          focusable="false"
+          role="img"
+          style={Object {}}
+          viewBox="0 0 352 512"
+          xmlns="http://www.w3.org/2000/svg"
+        >
+          <path
+            d="M242.72 256l100.07-100.07c12.28-12.28 12.28-32.19 0-44.48l-22.24-22.24c-12.28-12.28-32.19-12.28-44.48 0L176 189.28 75.93 89.21c-12.28-12.28-32.19-12.28-44.48 0L9.21 111.45c-12.28 12.28-12.28 32.19 0 44.48L109.28 256 9.21 356.07c-12.28 12.28-12.28 32.19 0 44.48l22.24 22.24c12.28 12.28 32.2 12.28 44.48 0L176 322.72l100.07 100.07c12.28 12.28 32.2 12.28 44.48 0l22.24-22.24c12.28-12.28 12.28-32.19 0-44.48L242.72 256z"
+            fill="currentColor"
+            style={Object {}}
+          />
+        </svg>
+      </div>
+    </header>
+    <div
+      className="bodyContainer"
+    >
+      <p>
+        test body
+      </p>
+    </div>
+    <footer
+      className="footerContainer"
+    >
+      <button
+        className="btn"
+        data-testid="modal-cancel"
+        onClick={[Function]}
+        style={
+          Object {
+            "background": "white",
+            "color": "black",
+          }
+        }
+      >
+        cancel btn
+      </button>
+      <button
+        className="btn-o_O-disabled_4cejf1"
+        data-testid="modal-confirm"
+        disabled={true}
+        onClick={[Function]}
+        style={
+          Object {
+            "background": "white",
+            "color": "red",
+          }
+        }
+      >
+        confirm btn
+      </button>
+    </footer>
+  </div>
+</div>
+`;
+
+exports[`ModalComponent Component should render inverted 1`] = `
+.backdrop {
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  position: fixed;
+  z-index: 190;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.5);
+  top: 0px;
+  left: 0px;
+  display: -webkit-box;
+  display: -moz-box;
+  display: -ms-flexbox;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-justify-content: center;
+  justify-content: center;
+  -webkit-align-items: center;
+  align-items: center;
+}
+
+.container-open {
+  background-color: #FFF;
+  max-width: 90%;
+  max-height: 90%;
+  min-width: 500px;
+  min-height: 150px;
+  padding: 15px 30px 20px 30px;
+  border-radius: 10px;
+  overflow: auto;
+}
+
+.headerContainer {
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  -webkit-box-pack: justify;
+  -ms-flex-pack: justify;
+  margin-bottom: 25px;
+  display: -webkit-box;
+  display: -moz-box;
+  display: -ms-flexbox;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-justify-content: space-between;
+  justify-content: space-between;
+  -webkit-align-items: center;
+  align-items: center;
+}
+
+.title {
+  font-size: 16px;
+  color: #000;
+  font-weight: bold;
+}
+
+.headerBtn {
+  color: #D5DEF1;
+  font-size: 18px;
+}
+
+.bodyContainer {
+  margin-bottom: 15px;
+  max-height: 500px;
+  overflow: auto;
+}
+
+.btn {
+  border: 0px;
+  font-size: 15px;
+  padding: 8px 25px;
+  border-radius: 20px;
+  margin-left: 15px;
+  -webkit-transition: alll .25s;
+  -moz-transition: alll .25s;
+  transition: alll .25s;
+}
+
+.footerContainer-invertedFooterContainer {
+  -webkit-box-pack: start;
+  -ms-flex-pack: start;
+  -webkit-box-direction: reverse;
+  -webkit-box-orient: horizontal;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  display: -webkit-box;
+  display: -moz-box;
+  display: -ms-flexbox;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-align-items: center;
+  align-items: center;
+  -webkit-flex-direction: row-reverse;
+  -ms-flex-direction: row-reverse;
+  flex-direction: row-reverse;
+  -webkit-justify-content: flex-start;
+  justify-content: flex-start;
+}
+
+<div
+  className="backdrop"
+  data-testid="modal"
+>
+  <div
+    className="container-open"
+  >
+    <header
+      className="headerContainer"
+    >
+      <span
+        className="title"
+      >
+        test title
+      </span>
+      <div
+        className="headerBtn"
+        onClick={[Function]}
+      >
+        <svg
+          aria-hidden="true"
+          className="svg-inline--fa fa-times fa-w-11 "
+          data-icon="times"
+          data-prefix="fas"
+          focusable="false"
+          role="img"
+          style={Object {}}
+          viewBox="0 0 352 512"
+          xmlns="http://www.w3.org/2000/svg"
+        >
+          <path
+            d="M242.72 256l100.07-100.07c12.28-12.28 12.28-32.19 0-44.48l-22.24-22.24c-12.28-12.28-32.19-12.28-44.48 0L176 189.28 75.93 89.21c-12.28-12.28-32.19-12.28-44.48 0L9.21 111.45c-12.28 12.28-12.28 32.19 0 44.48L109.28 256 9.21 356.07c-12.28 12.28-12.28 32.19 0 44.48l22.24 22.24c12.28 12.28 32.2 12.28 44.48 0L176 322.72l100.07 100.07c12.28 12.28 32.2 12.28 44.48 0l22.24-22.24c12.28-12.28 12.28-32.19 0-44.48L242.72 256z"
+            fill="currentColor"
+            style={Object {}}
+          />
+        </svg>
+      </div>
+    </header>
+    <div
+      className="bodyContainer"
+    >
+      <p>
+        test body
+      </p>
+    </div>
+    <footer
+      className="footerContainer-invertedFooterContainer"
+    >
+      <button
+        className="btn"
+        data-testid="modal-cancel"
+        onClick={[Function]}
+        style={
+          Object {
+            "background": "white",
+            "color": "red",
+          }
+        }
+      >
+        cancel btn
+      </button>
+      <button
+        className="btn"
+        data-testid="modal-confirm"
+        disabled={false}
+        onClick={[Function]}
+        style={
+          Object {
+            "background": "white",
+            "color": "black",
+          }
+        }
+      >
+        confirm btn
+      </button>
+    </footer>
+  </div>
+</div>
+`;
+
+exports[`ModalComponent Component should render open 1`] = `
+.backdrop {
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  position: fixed;
+  z-index: 190;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.5);
+  top: 0px;
+  left: 0px;
+  display: -webkit-box;
+  display: -moz-box;
+  display: -ms-flexbox;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-justify-content: center;
+  justify-content: center;
+  -webkit-align-items: center;
+  align-items: center;
+}
+
+.container-open {
+  background-color: #FFF;
+  max-width: 90%;
+  max-height: 90%;
+  min-width: 500px;
+  min-height: 150px;
+  padding: 15px 30px 20px 30px;
+  border-radius: 10px;
+  overflow: auto;
+}
+
+.headerContainer {
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  -webkit-box-pack: justify;
+  -ms-flex-pack: justify;
+  margin-bottom: 25px;
+  display: -webkit-box;
+  display: -moz-box;
+  display: -ms-flexbox;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-justify-content: space-between;
+  justify-content: space-between;
+  -webkit-align-items: center;
+  align-items: center;
+}
+
+.title {
+  font-size: 16px;
+  color: #000;
+  font-weight: bold;
+}
+
+.headerBtn {
+  color: #D5DEF1;
+  font-size: 18px;
+}
+
+.bodyContainer {
+  margin-bottom: 15px;
+  max-height: 500px;
+  overflow: auto;
+}
+
+.footerContainer {
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  -webkit-box-pack: end;
+  -ms-flex-pack: end;
+  display: -webkit-box;
+  display: -moz-box;
+  display: -ms-flexbox;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-justify-content: flex-end;
+  justify-content: flex-end;
+  -webkit-align-items: center;
+  align-items: center;
+}
+
+.btn {
+  border: 0px;
+  font-size: 15px;
+  padding: 8px 25px;
+  border-radius: 20px;
+  margin-left: 15px;
+  -webkit-transition: alll .25s;
+  -moz-transition: alll .25s;
+  transition: alll .25s;
+}
+
+<div
+  className="backdrop"
+  data-testid="modal"
+>
+  <div
+    className="container-open"
+  >
+    <header
+      className="headerContainer"
+    >
+      <span
+        className="title"
+      >
+        test title
+      </span>
+      <div
+        className="headerBtn"
+        onClick={[Function]}
+      >
+        <svg
+          aria-hidden="true"
+          className="svg-inline--fa fa-times fa-w-11 "
+          data-icon="times"
+          data-prefix="fas"
+          focusable="false"
+          role="img"
+          style={Object {}}
+          viewBox="0 0 352 512"
+          xmlns="http://www.w3.org/2000/svg"
+        >
+          <path
+            d="M242.72 256l100.07-100.07c12.28-12.28 12.28-32.19 0-44.48l-22.24-22.24c-12.28-12.28-32.19-12.28-44.48 0L176 189.28 75.93 89.21c-12.28-12.28-32.19-12.28-44.48 0L9.21 111.45c-12.28 12.28-12.28 32.19 0 44.48L109.28 256 9.21 356.07c-12.28 12.28-12.28 32.19 0 44.48l22.24 22.24c12.28 12.28 32.2 12.28 44.48 0L176 322.72l100.07 100.07c12.28 12.28 32.2 12.28 44.48 0l22.24-22.24c12.28-12.28 12.28-32.19 0-44.48L242.72 256z"
+            fill="currentColor"
+            style={Object {}}
+          />
+        </svg>
+      </div>
+    </header>
+    <div
+      className="bodyContainer"
+    >
+      <p>
+        test body
+      </p>
+    </div>
+    <footer
+      className="footerContainer"
+    >
+      <button
+        className="btn"
+        data-testid="modal-cancel"
+        onClick={[Function]}
+        style={
+          Object {
+            "background": "white",
+            "color": "black",
+          }
+        }
+      >
+        cancel btn
+      </button>
+      <button
+        className="btn"
+        data-testid="modal-confirm"
+        disabled={false}
+        onClick={[Function]}
+        style={
+          Object {
+            "background": "white",
+            "color": "red",
+          }
+        }
+      >
+        confirm btn
+      </button>
+    </footer>
+  </div>
+</div>
+`;

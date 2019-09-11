@@ -1,0 +1,78 @@
+body {
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-weight: 400;
+  text-rendering: optimizeLegibility;
+}
+
+li {
+  list-style: none;
+}
+
+button {
+  border: 0;
+  background: none;
+  padding: 0;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-weight: 500;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+ul,
+label {
+  margin: 0;
+  padding: 0;
+}
+
+p {
+  word-break: break-word;
+  margin: 0;
+}
+
+a {
+  color: inherit;
+}
+
+a:hover {
+  text-decoration: none;
+}
+
+body {
+  overflow: hidden;
+}
+
+::-webkit-input-placeholder {
+  /* Chrome/Opera/Safari */
+  color: #9FA7BC;
+}
+
+::-moz-placeholder {
+  /* Firefox 19+ */
+  color: #9FA7BC;
+}
+
+:-ms-input-placeholder {
+  /* IE 10+ */
+  color: #9FA7BC;
+}
+
+:-moz-placeholder {
+  /* Firefox 18- */
+  color: #9FA7BC;
+}
+
+.h-100 {
+  height: 100%;
+}

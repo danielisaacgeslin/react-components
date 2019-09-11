@@ -1,0 +1,82 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Dropdown Component should render closed 1`] = `
+.container {
+  position: absolute;
+  box-shadow: 0 1px 5px 0 rgba(0, 0, 0, 0.2);
+  background-color: #FFF;
+  z-index: 200;
+  border-radius: 3px;
+  padding: 10px 15px;
+  opacity: 0;
+  color: #D5DEF1;
+  font-size: 15px;
+}
+
+<div
+  className="container"
+  onClick={[Function]}
+  style={
+    Object {
+      "bottom": undefined,
+      "left": undefined,
+      "right": undefined,
+      "top": undefined,
+    }
+  }
+/>
+`;
+
+exports[`Dropdown Component should render open 1`] = `
+.container-open {
+  position: absolute;
+  box-shadow: 0 1px 5px 0 rgba(0, 0, 0, 0.2);
+  background-color: #FFF;
+  z-index: 200;
+  border-radius: 3px;
+  padding: 10px 15px;
+  color: #D5DEF1;
+  font-size: 15px;
+  opacity: 1;
+}
+
+<div
+  className="container-open"
+  onClick={[Function]}
+  style={
+    Object {
+      "bottom": undefined,
+      "left": undefined,
+      "right": undefined,
+      "top": undefined,
+    }
+  }
+/>
+`;
+
+exports[`Dropdown Component should render small 1`] = `
+.container-open-small {
+  position: absolute;
+  box-shadow: 0 1px 5px 0 rgba(0, 0, 0, 0.2);
+  background-color: #FFF;
+  z-index: 200;
+  color: #D5DEF1;
+  font-size: 15px;
+  opacity: 1;
+  border-radius: 100px;
+  padding: 7px 10px;
+}
+
+<div
+  className="container-open-small"
+  onClick={[Function]}
+  style={
+    Object {
+      "bottom": undefined,
+      "left": undefined,
+      "right": undefined,
+      "top": undefined,
+    }
+  }
+/>
+`;

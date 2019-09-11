@@ -1,0 +1,18 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`ClickOutsideListener Component should render children 1`] = `
+<div>
+  <span
+    className="outside"
+  >
+    outside
+  </span>
+  <div>
+    <span
+      className="inside"
+    >
+      inside
+    </span>
+  </div>
+</div>
+`;
